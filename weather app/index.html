@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MY Weather App</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+
+<body style="background-image: url('https://wallpapercave.com/wp/wp2906721.jpg'); background-size: cover;">
+  <div style="display: flex;
+  justify-content: center;
+  align-items: center; margin-top: 15rem">
+    <div class="card text-center text-white bg-dark mb-3 opacity-75" style="max-width: 30rem;">
+
+      <div class="card-body" style="max-width: 30rem;">
+        <nav class="navbar bg-dark" style="">
+          <div class="container-fluid">
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" id="search" placeholder="Search" aria-label="Search">
+              <button class="bg-dark btn btn-outline-success" id="btn" type="submit"><i class="fas fa-search"></i></button>
+            </form>
+          </div>
+        </nav>
+        <br>
+        <div id="content">
+          <h1 class="card-title" style="display: inline-block;" id="name">Baran </h1>
+          <h1 class="card-title" style="display: inline-block;" id="country">, IN</h1>
+
+          <br>
+          <p class="card-text" style="display: inline-block; margin:2px;" id="icon"><img src="http://openweathermap.org/img/wn/04n@2x.png" alt=""></p>
+          <h3 class="card-text" style="display: inline-block; margin:2px;" id="temp">26°C</h3>
+          <p class="card-text" style="margin-top:5px;" id="description">Cloudy</p>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <script src="app.js" charset="utf-8"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+</body>
+
+</html>
